@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Conditions — BD</title>
+<style>
+  :root {
+    --bg: #f6f5f2; --paper: #fff; --ink: #1b1b1f; --muted: #66666e;
+    --line: #e2e0da; --accent: #2b4c7e; --mark: #fff1b8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #131316; --paper: #1c1c21; --ink: #ececef; --muted: #9a9aa3;
+            --line: #2e2e35; --accent: #8fb0e6; --mark: #5a4a12; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+         font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 820px; margin: 0 auto; padding: 48px 16px 80px; }
+  header { margin-bottom: 40px; }
+  header p { margin: 0; color: var(--muted); font-size: 14px; letter-spacing: .08em; text-transform: uppercase; }
+  h1 { margin: 6px 0 0; font-size: clamp(28px, 5vw, 40px); line-height: 1.15; }
+  section { background: var(--paper); border: 1px solid var(--line); border-radius: 10px;
+            padding: 28px; margin-bottom: 20px; }
+  h2 { margin: 0 0 18px; font-size: 13px; letter-spacing: .1em; text-transform: uppercase; color: var(--accent); }
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; }
+  .kpi { border: 1px solid var(--line); border-radius: 8px; padding: 16px; }
+  .kpi b { display: block; font-size: 22px; line-height: 1.2; margin-bottom: 4px; }
+  .kpi span { color: var(--muted); font-size: 14px; }
+  ul { margin: 0; padding: 0; list-style: none; }
+  li { padding: 12px 0; border-top: 1px solid var(--line); }
+  li:first-child { border-top: 0; padding-top: 0; }
+  li:last-child { padding-bottom: 0; }
+  li strong { display: block; }
+  li small { color: var(--muted); font-size: 14px; }
+  mark { background: var(--mark); color: inherit; padding: 0 4px; border-radius: 3px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <p>BD · Proposition</p>
+    <h1>Engagements, exclusions et conditions</h1>
+  </header>
+
+  <section>
+    <h2>Engagements proposés</h2>
+    <div class="kpis">
+      <div class="kpi"><b>1 h / 24 h</b><span>Perte de données maximale : 1 heure pour la base, 24 heures pour les médias</span></div>
+      <div class="kpi"><b>4 h</b><span>Remise en service au plus</span></div>
+      <div class="kpi"><b>99,5&nbsp;%</b><span>Disponibilité par mois</span></div>
+      <div class="kpi"><b>24 h</b><span>Incident de sécurité : alerte à BD sous 24 heures</span></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Non compris</h2>
+    <ul>
+      <li><strong>Vérification d'identité</strong><small>Au prix par contrôle du prestataire.</small></li>
+      <li><strong>Frais du prestataire de paiement</strong></li>
+      <li><strong>SMS, traduction automatique, recherche d'images sur le web et modération automatique</strong><small>Abonnements aux services utilisés.</small></li>
+      <li><strong>Traductions et relectures de l'interface</strong><small>Par des locuteurs natifs.</small></li>
+      <li><strong>Rédaction juridique et rédaction des textes SEO</strong></li>
+      <li><strong>Import au-delà de 40 profils</strong><small>30.00 CHF par profil.</small></li>
+      <li><strong>Formation et passation supplémentaires</strong><small><mark>[tarif horaire]</mark> CHF de l'heure.</small></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Conditions</h2>
+    <ul>
+      <li><strong>Gestes commerciaux</strong><small>Les missions offertes le sont pour une commande de l'ensemble. Si des lignes sont retirées, ces gestes commerciaux sont revus.</small></li>
+      <li><strong>Lancement</strong><small>Date ferme le <mark>[date]</mark>, dans la semaine précédant Noël 2026. Le calendrier détaillé est remis à la signature.</small></li>
+      <li><strong>Équipe</strong><small>Responsable <mark>[nom]</mark>, suppléant <mark>[nom]</mark>.</small></li>
+      <li><strong>Réception</strong><small>Sur procès-verbal écrit. Les anomalies bloquantes et les failles de sécurité critiques ou élevées empêchent la réception. Les réserves mineures sont corrigées sous 10 jours ouvrés.</small></li>
+      <li><strong>Demandes de changement</strong><small>Toute demande de changement est chiffrée, en coût et en délai, avant d'être exécutée.</small></li>
+      <li><strong>Propriété</strong><small>Le code, les données et les fichiers de conception sont la propriété de BD.</small></li>
+      <li><strong>Prestataires critiques</strong><small>Aucun engagement irréversible n'est pris avec un prestataire critique avant son acceptation écrite de l'activité.</small></li>
+      <li><strong>Garantie corrective</strong><small>12 mois après la réception (mission 44, offerte).</small></li>
+    </ul>
+  </section>
+</main>
+</body>
+</html>
